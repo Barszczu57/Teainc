@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c702ffd5-57e8-4ec9-a7e0-839150ad201e" name="Default Changelist" comment="login/register layout only" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <execution />
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="master" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Barszczu &lt;2bequalme@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1jrXXMENeQmR1jm57dVIPZJr2GP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.CSS" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c702ffd5-57e8-4ec9-a7e0-839150ad201e" name="Default Changelist" comment="" />
+      <created>1604563222030</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604563222030</updated>
+      <workItem from="1604563223323" duration="4155000" />
+      <workItem from="1604575145250" duration="85000" />
+      <workItem from="1604575260085" duration="5722000" />
+      <workItem from="1604584697517" duration="2995000" />
+      <workItem from="1604909561334" duration="5391000" />
+      <workItem from="1604930579759" duration="790000" />
+      <workItem from="1604931398984" duration="234000" />
+      <workItem from="1604931637647" duration="8723000" />
+      <workItem from="1604993423697" duration="1935000" />
+      <workItem from="1605105331252" duration="65000" />
+      <workItem from="1605118286881" duration="3120000" />
+      <workItem from="1605168226943" duration="1999000" />
+      <workItem from="1605170514798" duration="1528000" />
+      <workItem from="1605271229188" duration="586000" />
+      <workItem from="1605272890172" duration="507000" />
+      <workItem from="1605273427600" duration="5357000" />
+    </task>
+    <task id="LOCAL-00001" summary="login/register layout only">
+      <created>1605274523040</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605274523040</updated>
+    </task>
+    <task id="LOCAL-00002" summary="login/register layout only">
+      <created>1605283239575</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605283239575</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="login/register layout only" />
+    <option name="LAST_COMMIT_MESSAGE" value="login/register layout only" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="540" y="175" key="#CLI_Interpreters" timestamp="1604576478547">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="175" key="#CLI_Interpreters/0.0.1920.1040@0.0.1920.1040" timestamp="1604576478547" />
+    <state x="839" y="419" key="#Custom_Plugin_Repositories" timestamp="1605169855553">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="839" y="419" key="#Custom_Plugin_Repositories/0.0.1920.1040@0.0.1920.1040" timestamp="1605169855553" />
+    <state x="667" y="163" key="#PHP" timestamp="1604575794846">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="163" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1604575794846" />
+    <state x="552" y="161" key="#Plugins" timestamp="1605169859869">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="161" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1605169859869" />
+    <state x="440" y="94" key="#Project_Structure" timestamp="1605284518952">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1605284518952" />
+    <state x="735" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605283333227">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="735" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605283333227" />
+    <state x="184" y="86" key="DiffContextDialog" timestamp="1605283742634">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605283742634" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1605284472355">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605284472355" />
+    <state x="788" y="222" key="RollbackChangesDialog" timestamp="1605284361070">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="788" y="222" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605284361070" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1604934913875">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604934913875" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605283744532">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605283744532" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605283797987">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605283797987" />
+    <state x="94" y="0" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog" timestamp="1604576475793">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="94" y="0" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604576475793" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1604938443295">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604938443295" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605169837796">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605169837796" />
+  </component>
+</project>
