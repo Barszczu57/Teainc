@@ -61,11 +61,11 @@ body {
     font-weight: bold;
     font-family: 'Calibri', sans-serif;
     font-size: 20px;
-    color: orange;
+    color: #ffa500;
 
 
     display: grid;
-    grid-template-columns: 1fr minmax(min-content, 500px) minmax(min-content, 500px) 1fr;
+    grid-template-columns: 1fr minmax(min-content, 450px) minmax(min-content, 450px) 1fr;
     grid-template-rows: 10% 1fr 10%;
 
     gap: 10px;
@@ -77,7 +77,6 @@ body {
 .panel_login{
     grid-column: 3/ 4;
     grid-row: 2;
-
 
     background-color: #181818;
     padding: 20px;
