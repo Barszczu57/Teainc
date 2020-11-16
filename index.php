@@ -13,7 +13,6 @@
         </div>
 
         <div class="panel_signin panel_bg" id="panel_sig">
-            <button class="log_sign_change" id="go_sig">xxxx</button>
             <form class="panel_form_sign"  id="form_sign" action="./" method="post">
 
                 <label class="pl_labels" for="login.name">Login</label>
@@ -30,7 +29,10 @@
 
                 <button class="pl_button_login" type="submit">Create account</button>
             </form>
-
+            <div class="panel_btn">
+                <p class="btn_info_text">Nie masz konta ? Zarejestruj się już teraz!</p>
+                <button class="log_sign_change" id="go_sig">Zarejestruj się</button>
+            </div>
         </div>
 
         <div class="panel_login" id="panel_log">
@@ -46,8 +48,9 @@
 
                 <button class="pl_button_login" type="submit">Login</button>
             </form>
-            <div>
-                <button class="log_sign_change change_btn" id="go_log">xxxx</button>
+            <div class="panel_btn">
+                <p class="btn_info_text">Posiadasz konto ? Zaloguj się!</p>
+                <button class="log_sign_change change_btn" id="go_log">Zaloguj się</button>
             </div>
         </div>
 
