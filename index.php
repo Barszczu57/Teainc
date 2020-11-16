@@ -23,11 +23,11 @@
                 <input class="pl_input pl_input_errorX" type="email" name="login.password" id="login.password" placeholder="Write your email here">
                 <span class="pl_span">User with that email exist</span>
 
-                <label class="pl_labels" for="login.password">Password</label>
+                <label class="pl_labels" for="login.password">Hasło</label>
                 <input class="pl_input pl_input_errorX" type="password" name="login.password" id="login.password" placeholder="Create password">
                 <span class="pl_span">Password doesn't meet requirements</span>
 
-                <button class="pl_button_login" type="submit">Create account</button>
+                <button class="pl_button_login" type="submit">Utwórz konto</button>
             </form>
             <div class="panel_btn">
                 <p class="btn_info_text">Nie masz konta ? Zarejestruj się już teraz!</p>
@@ -42,11 +42,11 @@
                 <input class="pl_input pl_input_errorX" type="text" name="login.name" id="login.name" size="20" placeholder="Write your login here">
                 <span class="pl_span">Wrong login</span>
 
-                <label class="pl_labels" for="login.password">Password</label>
+                <label class="pl_labels" for="login.password">Hasło</label>
                 <input class="pl_input pl_input_errorX" type="password" name="login.password" id="login.password" placeholder="Write your password here">
                 <span class="pl_span">Wrong password</span>
 
-                <button class="pl_button_login" type="submit">Login</button>
+                <button class="pl_button_login" type="submit">Zaloguj</button>
             </form>
             <div class="panel_btn">
                 <p class="btn_info_text">Posiadasz konto ? Zaloguj się!</p>

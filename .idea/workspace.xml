@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand />
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c702ffd5-57e8-4ec9-a7e0-839150ad201e" name="Default Changelist" comment="login/register layout only" />
+    <list default="true" id="c702ffd5-57e8-4ec9-a7e0-839150ad201e" name="Default Changelist" comment="login/register panel update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
-    <execution />
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="Git.Pull.Settings">
     <option name="BRANCH" value="master" />
@@ -42,22 +50,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.CSS" />
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -85,7 +78,17 @@
       <workItem from="1605170514798" duration="1528000" />
       <workItem from="1605271229188" duration="586000" />
       <workItem from="1605272890172" duration="507000" />
-      <workItem from="1605273427600" duration="5357000" />
+      <workItem from="1605273427600" duration="9856000" />
+      <workItem from="1605370653373" duration="1047000" />
+      <workItem from="1605392408875" duration="100000" />
+      <workItem from="1605436548692" duration="301000" />
+      <workItem from="1605440071887" duration="968000" />
+      <workItem from="1605441079200" duration="636000" />
+      <workItem from="1605441785449" duration="489000" />
+      <workItem from="1605442307566" duration="1108000" />
+      <workItem from="1605443822433" duration="427000" />
+      <workItem from="1605444277732" duration="6634000" />
+      <workItem from="1605515804321" duration="9608000" />
     </task>
     <task id="LOCAL-00001" summary="login/register layout only">
       <created>1605274523040</created>
@@ -101,7 +104,56 @@
       <option name="project" value="LOCAL" />
       <updated>1605283239575</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="login/register layout only">
+      <created>1605287316365</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605287316365</updated>
+    </task>
+    <task id="LOCAL-00004" summary="login/register layout only">
+      <created>1605287415401</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605287415401</updated>
+    </task>
+    <task id="LOCAL-00005" summary="login/register layout only">
+      <created>1605288157231</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605288157231</updated>
+    </task>
+    <task id="LOCAL-00006" summary="login/register layout only">
+      <created>1605288450253</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605288450253</updated>
+    </task>
+    <task id="LOCAL-00007" summary="login/register layout only">
+      <created>1605443311129</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605443311129</updated>
+    </task>
+    <task id="LOCAL-00008" summary="login/register panel update">
+      <created>1605518385549</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605518385549</updated>
+    </task>
+    <task id="LOCAL-00009" summary="login/register panel update">
+      <created>1605524841919</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1605524841919</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +187,11 @@
             </State>
           </value>
         </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
       </map>
     </option>
     <option name="OPEN_GENERIC_TABS">
@@ -142,16 +199,18 @@
         <entry key="1" value="TOOL_WINDOW" />
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="login/register layout only" />
-    <option name="LAST_COMMIT_MESSAGE" value="login/register layout only" />
+    <MESSAGE value="login/register panel update" />
+    <option name="LAST_COMMIT_MESSAGE" value="login/register panel update" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="540" y="175" key="#CLI_Interpreters" timestamp="1604576478547">
+    <state x="540" y="175" key="#CLI_Interpreters" timestamp="1605440799881">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="540" y="175" key="#CLI_Interpreters/0.0.1920.1040@0.0.1920.1040" timestamp="1604576478547" />
+    <state x="540" y="175" key="#CLI_Interpreters/0.0.1920.1040@0.0.1920.1040" timestamp="1605440799881" />
     <state x="839" y="419" key="#Custom_Plugin_Repositories" timestamp="1605169855553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -160,10 +219,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="163" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1604575794846" />
-    <state x="552" y="161" key="#Plugins" timestamp="1605169859869">
+    <state x="552" y="161" key="#Plugins" timestamp="1605441724899">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="161" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1605169859869" />
+    <state x="552" y="161" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1605441724899" />
     <state x="440" y="94" key="#Project_Structure" timestamp="1605284518952">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -172,26 +231,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="735" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605283333227" />
-    <state x="184" y="86" key="DiffContextDialog" timestamp="1605283742634">
+    <state x="400" y="83" width="1213" height="699" key="DiffContextDialog" timestamp="1605371936710">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605283742634" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1605284472355">
+    <state x="400" y="83" width="1213" height="699" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605371936710" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1605441070771">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605284472355" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605441070771" />
     <state x="788" y="222" key="RollbackChangesDialog" timestamp="1605284361070">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="788" y="222" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605284361070" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1604934913875">
+    <state x="681" y="175" width="990" height="712" key="SettingsEditor" timestamp="1605446508040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604934913875" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605283744532">
+    <state x="681" y="175" width="990" height="712" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605446508040" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605524848770">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605283744532" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605524848770" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605283797987">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -200,13 +259,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="94" y="0" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604576475793" />
+    <state x="951" y="402" width="623" height="289" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1605444440709">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="951" y="402" width="623" height="289" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605444440709" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1604938443295">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604938443295" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605169837796">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605444791657">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605169837796" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605444791657" />
   </component>
 </project>
