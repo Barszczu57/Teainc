@@ -12,8 +12,9 @@
             Header (pusty)
         </div>
 
-        <div class="panel_signin">
-            <form class="panel_form" action="./" method="post">
+        <div class="panel_signin panel_bg" id="panel_sig">
+            <button class="log_sign_change" id="go_sig">xxxx</button>
+            <form class="panel_form_sign"  id="form_sign" action="./" method="post">
 
                 <label class="pl_labels" for="login.name">Login</label>
                 <input class="pl_input pl_input_errorX" type="text" name="login.name" id="login.name" size="20" placeholder="Create login">
@@ -29,10 +30,11 @@
 
                 <button class="pl_button_login" type="submit">Create account</button>
             </form>
+
         </div>
 
-        <div class="panel_login">
-            <form class="panel_form" action="./" method="post">
+        <div class="panel_login" id="panel_log">
+            <form class="panel_form_log change_panel" id="form_login" action="./" method="post">
 
                 <label class="pl_labels" for="login.name">Login</label>
                 <input class="pl_input pl_input_errorX" type="text" name="login.name" id="login.name" size="20" placeholder="Write your login here">
@@ -44,7 +46,9 @@
 
                 <button class="pl_button_login" type="submit">Login</button>
             </form>
-
+            <div>
+                <button class="log_sign_change change_btn" id="go_log">xxxx</button>
+            </div>
         </div>
 
         <div class="footer">
@@ -52,6 +56,19 @@
         </div>
 
     </div>
-    <script src="javascript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+

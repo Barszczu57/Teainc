@@ -97,14 +97,22 @@ body {
 
     display: flex;
     flex-direction: column;
-
-    /*background-image: url(panelbg.png);*/
 }
-.panel_form{
+.panel_form_sign{
     display: flex;
     flex-direction: column;
+    visibility: hidden;
 }
-.panel_form > *{
+.panel_form_sign > *{
+    align-self: flex-start;
+    line-height: 2.5;
+}
+.panel_form_log{
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+}
+.panel_form_log > *{
     align-self: flex-start;
     line-height: 2.5;
 }
@@ -133,7 +141,7 @@ body {
 .pl_button_login{
     font-size: 0.9em;
     font-weight: 500;
-    padding: 0px 100px;
+    padding: 0 100px;
     border: 3px solid orange;
     border-radius: 10px;
 
@@ -150,6 +158,20 @@ body {
 }
 .pl_input_error + .pl_span{
     visibility: visible;
+}
+.log_sign_change{
+    width: 10em;
+    height: 3em;
+    position: center;
+}
+.change_btn{
+    visibility: hidden;
+}
+.change_panel{
+    visibility: visible;
+}
+.panel_bg{
+    background-image: url(panelbg.png);
 }
 
 
