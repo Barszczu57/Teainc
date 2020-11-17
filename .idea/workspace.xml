@@ -88,7 +88,11 @@
       <workItem from="1605442307566" duration="1108000" />
       <workItem from="1605443822433" duration="427000" />
       <workItem from="1605444277732" duration="6634000" />
-      <workItem from="1605515804321" duration="9608000" />
+      <workItem from="1605515804321" duration="11542000" />
+      <workItem from="1605543574202" duration="2734000" />
+      <workItem from="1605600237162" duration="1378000" />
+      <workItem from="1605602299395" duration="15000" />
+      <workItem from="1605626178828" duration="908000" />
     </task>
     <task id="LOCAL-00001" summary="login/register layout only">
       <created>1605274523040</created>
@@ -153,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605524841919</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="login/register panel update">
+      <created>1605538325647</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605538325648</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,14 +254,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="788" y="222" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605284361070" />
-    <state x="681" y="175" width="990" height="712" key="SettingsEditor" timestamp="1605446508040">
+    <state x="681" y="175" width="990" height="712" key="SettingsEditor" timestamp="1605541477650">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="681" y="175" width="990" height="712" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605446508040" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605524848770">
+    <state x="681" y="175" width="990" height="712" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605541477650" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605538328272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605524848770" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605538328272" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605283797987">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

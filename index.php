@@ -3,6 +3,7 @@
 <head>
     <Title>Logowanie</Title>
 <link rel="stylesheet" type="text/css" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
@@ -20,7 +21,7 @@
                 <span class="pl_span">User with that login exist</span>
 
                 <label class="pl_labels" for="login.password">Email</label>
-                <input class="pl_input pl_input_errorX" type="email" name="login.password" id="login.password" placeholder="Write your email here">
+                <input class="pl_input pl_input_errorX" type="email" name="login.password" id="login.email" placeholder="Write your email here">
                 <span class="pl_span">User with that email exist</span>
 
                 <label class="pl_labels" for="login.password">Hasło</label>
@@ -29,9 +30,9 @@
 
                 <button class="pl_button_login" type="submit">Utwórz konto</button>
             </form>
-            <div class="panel_btn">
+            <div class="panel_btn" id="go_sig">
                 <p class="btn_info_text">Nie masz konta ? Zarejestruj się już teraz!</p>
-                <button class="log_sign_change" id="go_sig">Zarejestruj się</button>
+                <button class="log_sign_change" >Zarejestruj się</button>
             </div>
         </div>
 
@@ -48,9 +49,9 @@
 
                 <button class="pl_button_login" type="submit">Zaloguj</button>
             </form>
-            <div class="panel_btn">
+            <div class="panel_btn change_btn" id="go_log">
                 <p class="btn_info_text">Posiadasz konto ? Zaloguj się!</p>
-                <button class="log_sign_change change_btn" id="go_log">Zaloguj się</button>
+                <button class="log_sign_change " >Zaloguj się</button>
             </div>
         </div>
 
