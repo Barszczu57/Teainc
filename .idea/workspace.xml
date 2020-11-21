@@ -8,9 +8,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c702ffd5-57e8-4ec9-a7e0-839150ad201e" name="Default Changelist" comment="login/register panel update">
+    <list default="true" id="c702ffd5-57e8-4ec9-a7e0-839150ad201e" name="Default Changelist" comment="poprawka zmiany logowania na rejestrację">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,20 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -93,6 +107,10 @@
       <workItem from="1605600237162" duration="1378000" />
       <workItem from="1605602299395" duration="15000" />
       <workItem from="1605626178828" duration="908000" />
+      <workItem from="1605637649448" duration="795000" />
+      <workItem from="1605774218892" duration="1361000" />
+      <workItem from="1605875656947" duration="2504000" />
+      <workItem from="1605964913910" duration="14134000" />
     </task>
     <task id="LOCAL-00001" summary="login/register layout only">
       <created>1605274523040</created>
@@ -164,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605538325648</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="poprawka zmiany logowania na rejestrację">
+      <created>1605637843629</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1605637843629</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +240,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="login/register layout only" />
     <MESSAGE value="login/register panel update" />
-    <option name="LAST_COMMIT_MESSAGE" value="login/register panel update" />
+    <MESSAGE value="poprawka zmiany logowania na rejestrację" />
+    <option name="LAST_COMMIT_MESSAGE" value="poprawka zmiany logowania na rejestrację" />
   </component>
   <component name="WindowStateProjectService">
     <state x="540" y="175" key="#CLI_Interpreters" timestamp="1605440799881">
@@ -238,6 +264,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1605284518952" />
+    <state x="348" y="360" key="#SQL_Dialects" timestamp="1605978942767">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="348" y="360" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1605978942767" />
     <state x="735" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605283333227">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -246,22 +276,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="400" y="83" width="1213" height="699" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605371936710" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1605441070771">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1605882483527">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605441070771" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605882483527" />
     <state x="788" y="222" key="RollbackChangesDialog" timestamp="1605284361070">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="788" y="222" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605284361070" />
-    <state x="681" y="175" width="990" height="712" key="SettingsEditor" timestamp="1605541477650">
+    <state x="681" y="175" width="990" height="712" key="SettingsEditor" timestamp="1605776989695">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="681" y="175" width="990" height="712" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605541477650" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605538328272">
+    <state x="681" y="175" width="990" height="712" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605776989695" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605637848945">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605538328272" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605637848945" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605283797987">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

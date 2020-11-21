@@ -37,18 +37,57 @@
         </div>
 
         <div class="panel_login" id="panel_log">
-            <form class="panel_form_log change_panel" id="form_login" action="./" method="post">
+            <div class="form panel_form_log change_panel" id="form_login" action="./" method="post">
 
-                <label class="pl_labels" for="login.name">Login</label>
-                <input class="pl_input pl_input_errorX" type="text" name="login.name" id="login.name" size="20" placeholder="Write your login here">
+                <label class="pl_labels" for="username">Login</label>
+                <input class="pl_input" type="text" name="username" id="username" size="20" placeholder="Write your login here">
                 <span class="pl_span">Wrong login</span>
 
-                <label class="pl_labels" for="login.password">Hasło</label>
-                <input class="pl_input pl_input_errorX" type="password" name="login.password" id="login.password" placeholder="Write your password here">
+                <label class="pl_labels" for="password">Hasło</label>
+                <input class="pl_input" type="password" name="password" id="password" placeholder="Write your password here">
                 <span class="pl_span">Wrong password</span>
 
-                <button class="pl_button_login" type="submit">Zaloguj</button>
-            </form>
+                <button class="pl_button_login" type="submit" id="submit">Zaloguj</button>
+            </div>
+            <script>
+                const form = {
+                    username: document.getElementById('username'),
+                    password: document.getElementById('password'),
+                    submit: document.getElementById('submit'),
+                }
+
+                form.submit.addEventListener('click', () => {
+                   const request = new XMLHttpRequest();
+
+                   request.onload = () => {
+                       let responseObject =  null;
+
+                       try{
+                           responseObject =  JSON.parse(request.responseText);
+                       } catch (e) {
+                           console.error('Could not parse JSON!');
+                       }
+                       if(responseObject) {
+                           handleResponse(responseObject);
+                       }
+                   };
+
+                   const  requestData = `username=${form.username.value}&password=${form.password.value}`;
+
+                   request.open('post', 'login.php');
+                   request.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+                   request.send(requestData);
+                });
+
+                function handleResponse (responeObject) {
+                     if(responeObject.ok) {
+                         location.href = "account.php"
+                     }else{
+                         $('#username').addClass('pl_input_error')
+                         $('#password').addClass('pl_input_error')
+                     }
+                }
+            </script>
             <div class="panel_btn change_btn" id="go_log">
                 <p class="btn_info_text">Posiadasz konto ? Zaloguj się!</p>
                 <button class="log_sign_change " >Zaloguj się</button>

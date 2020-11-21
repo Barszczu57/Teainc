@@ -5,6 +5,8 @@ $('#go_sig').click(function() {
     $('#go_log').removeClass('change_btn')
     $('#form_sign').addClass('change_panel')
     $('#form_login').removeClass('change_panel')
+    $('#username').removeClass('pl_input_error')
+    $('#password').removeClass('pl_input_error')
 });
 $('#go_log').click(function() {
     $('#go_log').addClass('change_btn')
