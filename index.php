@@ -40,23 +40,23 @@
             <div class="form panel_form_log change_panel" id="form_login" action="./" method="post">
 
                 <label class="pl_labels" for="username">Login</label>
-                <input class="pl_input" type="text" name="username" id="username" size="20" placeholder="Write your login here">
+                <input class="pl_input" type="text" name="username1" id="username" size="20" placeholder="Write your login here">
                 <span class="pl_span">Wrong login</span>
 
                 <label class="pl_labels" for="password">Hasło</label>
                 <input class="pl_input" type="password" name="password" id="password" placeholder="Write your password here">
                 <span class="pl_span">Wrong password</span>
 
-                <button class="pl_button_login" type="submit" id="submit">Zaloguj</button>
+                <button class="pl_button_login" name="submit1" type="submit" id="submit">Zaloguj</button>
             </div>
             <script>
                 const form = {
-                    username: document.getElementById('username'),
+                    username1: document.getElementById('username'),
                     password: document.getElementById('password'),
-                    submit: document.getElementById('submit'),
+                    submit1: document.getElementById('submit'),
                 }
 
-                form.submit.addEventListener('click', () => {
+                form.submit1.addEventListener('click', () => {
                    const request = new XMLHttpRequest();
 
                    request.onload = () => {
@@ -72,7 +72,7 @@
                        }
                    };
 
-                   const  requestData = `username=${form.username.value}&password=${form.password.value}`;
+                   const  requestData = `username=${form.username1.value}&password=${form.password.value}`;
 
                    request.open('post', 'login.php');
                    request.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
