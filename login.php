@@ -19,14 +19,12 @@ $query="SELECT * FROM users WHERE username ='$username' and password='$password'
 $result = mysqli_query($connection, $query);
 $row = mysqli_fetch_array($result);
 
-if ($ok) {
-    if ($row['username'] == $username && $row['password'] == $password) {
-        $ok = true;
-    } else {
-        $ok = false;
-    }
+if(mysqli_num_rows($result)==1){
+    $ok = true;
 }
-
+else{
+    $ok = false;
+}
 echo json_encode(
     array(
         'ok' => $ok,
