@@ -8,10 +8,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c702ffd5-57e8-4ec9-a7e0-839150ad201e" name="Default Changelist" comment="poprawka zmiany logowania na rejestrację">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+    <list default="true" id="c702ffd5-57e8-4ec9-a7e0-839150ad201e" name="Default Changelist" comment="Logowanie ajax / grid strony głównej">
+      <change afterPath="$PROJECT_DIR$/account.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +110,7 @@
       <workItem from="1605637649448" duration="795000" />
       <workItem from="1605774218892" duration="1361000" />
       <workItem from="1605875656947" duration="2504000" />
-      <workItem from="1605964913910" duration="14134000" />
+      <workItem from="1605964913910" duration="14475000" />
     </task>
     <task id="LOCAL-00001" summary="login/register layout only">
       <created>1605274523040</created>
@@ -189,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605637843629</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Logowanie ajax / grid strony głównej">
+      <created>1605980202090</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1605980202091</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +248,8 @@
     <MESSAGE value="login/register layout only" />
     <MESSAGE value="login/register panel update" />
     <MESSAGE value="poprawka zmiany logowania na rejestrację" />
-    <option name="LAST_COMMIT_MESSAGE" value="poprawka zmiany logowania na rejestrację" />
+    <MESSAGE value="Logowanie ajax / grid strony głównej" />
+    <option name="LAST_COMMIT_MESSAGE" value="Logowanie ajax / grid strony głównej" />
   </component>
   <component name="WindowStateProjectService">
     <state x="540" y="175" key="#CLI_Interpreters" timestamp="1605440799881">
@@ -288,14 +296,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="681" y="175" width="990" height="712" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605776989695" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605637848945">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605980396357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605637848945" />
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605283797987">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605980396357" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605980423707">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605283797987" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605980423707" />
     <state x="94" y="0" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog" timestamp="1604576475793">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
