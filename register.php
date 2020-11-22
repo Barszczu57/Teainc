@@ -5,7 +5,7 @@ $connection1 = mysqli_connect('localhost','root','','teainc');
 $username1= isset($_POST['username1']) ? $_POST['username1'] : '';
 $email1 = isset($_POST['email1']) ? $_POST['email1'] : '';
 $password1 = isset($_POST['password1']) ? $_POST['password1'] : '';
-
+$auth=0;
 $ok = true;
 
 if ( !isset($username1) || empty($username1) ) {
@@ -29,10 +29,9 @@ else{
     $ok = true;
 }
 if($ok){
-    $queryADD="INSERT INTO users (username,email,password) VALUES ('$username1','$email1','$password1')";
+    $queryADD="INSERT INTO users (username,email,password,auth) VALUES ('$username1','$email1','$password1','$auth')";
     $resultADD = mysqli_query($connection1, $queryADD);
 }
-
 
 echo json_encode(
     array(
@@ -41,3 +40,4 @@ echo json_encode(
 );
 
 ?>
+
