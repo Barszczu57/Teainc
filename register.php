@@ -28,7 +28,7 @@ if(mysqli_num_rows($result1)==1){
 else{
     $ok = true;
 }
-if($ok){
+if($ok===true){
     $queryADD="INSERT INTO users (username,email,password,auth) VALUES ('$username1','$email1','$password1','$auth')";
     $resultADD = mysqli_query($connection1, $queryADD);
 }

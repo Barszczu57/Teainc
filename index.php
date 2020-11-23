@@ -7,11 +7,11 @@
 </head>
 <body>
 
-    <div id="container_log">
+    <div class="container_log">
         <!-- commit test -->
-        <div class="header">
-            Header (pusty)
-        </div>
+        <header class="header">
+            Teainc
+        </header>
 
         <div class="panel_signin panel_bg" id="panel_sig">
             <div class=" form panel_form_sign"  id="form_sign" action="./" method="post">

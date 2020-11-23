@@ -1,13 +1,13 @@
 <!DOCTYPE>
 <html>
 <head>
-    <Title>Just do it</Title>
+    <Title>Teainc</Title>
 <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
     <div class="container">
         <div class="header">
-            Navbar
+            Teainc
         </div>
         <div class="content-extra-large">
             News
