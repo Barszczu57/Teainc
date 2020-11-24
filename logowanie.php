@@ -33,7 +33,7 @@
                     <label class="panel_login-lab" for="password_log">Hasło</label>
                     <input class="panel_login-inp" type="password" name="password_log" id="password_log" placeholder="Tu wpisz swoje hasło">
 
-                    <button class="panel_login_sbt" type="submit" name="submit_log"  id="submit_log">Zaloguj</button>
+                    <button class="panel_login-sbt" type="submit" name="submit_log"  id="submit_log">Zaloguj</button>
                 </div>
                 <script>
                     const formLog= {
@@ -74,8 +74,8 @@
                     }
                 </script>
                 <div style="display: flex; justify-content: space-between;">
-                    <button class="panel_login_sbt" value="Cofnij się!" onclick="history.back()">Cofnij się!</button>
-                    <button class="panel_login_sbt" value="Zarejestruj się!">Zarejestruj się!</button>
+                    <button class="panel_login-switch" value="Cofnij się!" onclick="history.back()">Cofnij się!</button>
+                    <button class="panel_login-switch" value="Zarejestruj się!">Zarejestruj się!</button>
                 </div>
             </div>
             <div class="emptybox2">

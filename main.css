@@ -161,13 +161,21 @@ footer{
     border: 2px solid #181818;
 
 }
-.panel_login_sbt{
+.panel_login-sbt{
     margin-top: 2em;
     border: 2px solid #181818;
     background-color: #91bebb;
     font-size: 1em;
     font-weight: bold;
     /* znaleźć inną czcionkę */
+}
+.panel_login-switch{
+    margin-top: 2em;
+    border: 2px solid #181818;
+    background-color: #91bebb;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 20px;
 }
 
 
