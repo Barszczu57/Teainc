@@ -144,7 +144,6 @@
         </div>
     </div>
 <div class="footer">
-    Footer
     <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" style="color: inherit" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" style="color: inherit" title="Flaticon">www.flaticon.com</a></div>
 </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
