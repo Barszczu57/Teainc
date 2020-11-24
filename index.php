@@ -37,7 +37,15 @@
                 Produkt3
             </div>
             <div class="content-small">
-                Rightbar
+                <ul style="text-wrap: normal">
+                To do list:
+
+                <li>Panel rejestracji</li>
+                <li>Wyszukanie nowej czcionki dla log/rej ew. dla całej strony/stylizacja obecnej</li>
+                <li>Zacząć panel admina</li>
+                <li>Nauczyć się robić todolist</li>
+
+                </ul>
             </div>
         </div>
         <footer>

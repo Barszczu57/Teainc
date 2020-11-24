@@ -10,7 +10,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c702ffd5-57e8-4ec9-a7e0-839150ad201e" name="Default Changelist" comment="Przebudowa stylistyki strony / podstrona logowania / rejestracja w aktualizacji">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logowanie.php" beforeDir="false" afterPath="$PROJECT_DIR$/logowanie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +127,7 @@
       <workItem from="1606085370783" duration="834000" />
       <workItem from="1606120171929" duration="983000" />
       <workItem from="1606121826409" duration="21354000" />
-      <workItem from="1606203853857" duration="31295000" />
+      <workItem from="1606203853857" duration="32032000" />
     </task>
     <task id="LOCAL-00001" summary="login/register layout only">
       <created>1605274523040</created>
@@ -283,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606251709189</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Przebudowa stylistyki strony / podstrona logowania / rejestracja w aktualizacji">
+      <created>1606251890173</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1606251890173</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

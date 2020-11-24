@@ -68,7 +68,7 @@ footer{
 }
 .container-content{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 14%;
+    grid-template-columns: 1fr 1fr 1fr 15%;
     grid-template-rows: 1fr  1fr  1fr;
 
     gap: 10px;
@@ -111,7 +111,7 @@ footer{
     background-color: #91bebb;
 }
 .content-small{
-    grid-column: 4/max;
+    grid-column: 4/5;
     grid-row: 1/4;
 
     color: #ffffff;
