@@ -1,25 +1,24 @@
 <?php
 
-$connection2 = mysqli_connect('localhost','root','','teainc');
+$conn = mysqli_connect('localhost','root','','teainc');
 
-$username2 = isset($_POST['username2']) ? $_POST['username2'] : '';
-$password2 = isset($_POST['password2']) ? $_POST['password2'] : '';
+$username_log = isset($_POST['username_log']) ? $_POST['username_log'] : '';
+$password_log = isset($_POST['password_log']) ? $_POST['password_log'] : '';
 
 $ok = true;
 
-if ( !isset($username2) || empty($username2) ) {
+if ( !isset($username_log) || empty($username_log) ) {
     $ok = false;
 }
 
-if ( !isset($password2) || empty($password2) ) {
+if ( !isset($password_log) || empty($password_log) ) {
     $ok = false;
 }
+$queryLog="SELECT * FROM users WHERE username ='$username_log' AND password='$password_log'";
+$resultLog = mysqli_query($conn, $queryLog);
+$rowLog = mysqli_fetch_array($resultLog);
 
-$query2="SELECT * FROM users WHERE username ='$username2' AND password='$password2'";
-$result2 = mysqli_query($connection2, $query2);
-$row2 = mysqli_fetch_array($result2);
-
-if(mysqli_num_rows($result2)==1){
+if(mysqli_num_rows($resultLog)==1){
     $ok = true;
 }
 else{
@@ -30,5 +29,4 @@ echo json_encode(
         'ok' => $ok,
     )
 );
-
 ?>

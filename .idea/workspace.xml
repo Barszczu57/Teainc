@@ -11,7 +11,9 @@
     <list default="true" id="c702ffd5-57e8-4ec9-a7e0-839150ad201e" name="Default Changelist" comment="Przebudowa stylistyki strony / podstrona logowania w aktuazliacji">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logowanie.php" beforeDir="false" afterPath="$PROJECT_DIR$/logowanie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rejestracja.php" beforeDir="false" afterPath="$PROJECT_DIR$/rejestracja.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +129,7 @@
       <workItem from="1606085370783" duration="834000" />
       <workItem from="1606120171929" duration="983000" />
       <workItem from="1606121826409" duration="21354000" />
-      <workItem from="1606203853857" duration="21162000" />
+      <workItem from="1606203853857" duration="30975000" />
     </task>
     <task id="LOCAL-00001" summary="login/register layout only">
       <created>1605274523040</created>
@@ -262,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606235501428</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Przebudowa stylistyki strony / podstrona logowania w aktuazliacji">
+      <created>1606235610830</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1606235610830</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,10 +366,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="735" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605283333227" />
-    <state x="400" y="83" width="1213" height="699" maximized="true" key="DiffContextDialog" timestamp="1606045567964">
+    <state x="400" y="83" width="1213" height="699" maximized="true" key="DiffContextDialog" timestamp="1606240413826">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="400" y="83" width="1213" height="699" maximized="true" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606045567964" />
+    <state x="400" y="83" width="1213" height="699" maximized="true" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606240413826" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1606054826135">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -377,10 +386,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="681" y="175" width="990" height="712" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605776989695" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606235508394">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606235621267">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606235508394" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606235621267" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605980423707">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -397,10 +406,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="951" y="402" width="623" height="289" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605444440709" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1606166121302">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1606235979778">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606166121302" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606235979778" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606047895592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
