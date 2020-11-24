@@ -13,7 +13,7 @@
                 <a href="" class="navbutton">
                     <img src="basket.svg" alt="koszyk">
                 </a>
-                <a href="rejestracja.php" class="navbutton">
+                <a href="logowanie.php" class="navbutton">
                     <img src="profile.svg" alt="profil">
                 </a>
                 <a href="" class="navbutton">
