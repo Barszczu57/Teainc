@@ -22,7 +22,7 @@
 </div>
     <div class="container_log">
         <div class="panel_signin panel_bg" id="panel_sig">
-            <div class=" form panel_form_sign"  id="form_sign" action="./" method="post">
+            <div class=" form panel_form_sign"  id="form_sign">
 
                 <label class="pl_labels" for="username1">Login</label>
                 <input class="pl_input" type="text" name="username1" id="username1" size="20" placeholder="Create login">
@@ -86,7 +86,7 @@
         </div>
 
         <div class="panel_login" id="panel_log">
-            <div class="form panel_form_log change_panel" id="form_login" action="./" method="post">
+            <div class="form panel_form_log change_panel" id="form_login">
 
                 <label class="pl_labels" for="username2">Login</label>
                 <input class="pl_input" type="text" name="username2" id="username2" size="20" placeholder="Write your login here">

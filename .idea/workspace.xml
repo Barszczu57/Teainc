@@ -8,13 +8,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c702ffd5-57e8-4ec9-a7e0-839150ad201e" name="Default Changelist" comment="Logowanie i rejestracja ajax aktualizacja">
-      <change afterPath="$PROJECT_DIR$/logowanie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rejestracja.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.php" beforeDir="false" />
+    <list default="true" id="c702ffd5-57e8-4ec9-a7e0-839150ad201e" name="Default Changelist" comment="Przebudowa stylistyki strony / podstrona logowania w aktuazliacji">
+      <change beforePath="$PROJECT_DIR$/logowanie.php" beforeDir="false" afterPath="$PROJECT_DIR$/logowanie.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +125,7 @@
       <workItem from="1606085370783" duration="834000" />
       <workItem from="1606120171929" duration="983000" />
       <workItem from="1606121826409" duration="21354000" />
-      <workItem from="1606203853857" duration="20968000" />
+      <workItem from="1606203853857" duration="21066000" />
     </task>
     <task id="LOCAL-00001" summary="login/register layout only">
       <created>1605274523040</created>
@@ -244,7 +239,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606163314235</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Przebudowa stylistyki strony / podstrona logowania w aktuazliacji">
+      <created>1606235407626</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1606235407627</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Przebudowa stylistyki strony / podstrona logowania w aktuazliacji">
+      <created>1606235445487</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1606235445487</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,7 +308,8 @@
     <MESSAGE value="Logowanie ajax / grid strony głównej" />
     <MESSAGE value="Logowanie i rejestracja ajax" />
     <MESSAGE value="Logowanie i rejestracja ajax aktualizacja" />
-    <option name="LAST_COMMIT_MESSAGE" value="Logowanie i rejestracja ajax aktualizacja" />
+    <MESSAGE value="Przebudowa stylistyki strony / podstrona logowania w aktuazliacji" />
+    <option name="LAST_COMMIT_MESSAGE" value="Przebudowa stylistyki strony / podstrona logowania w aktuazliacji" />
   </component>
   <component name="WindowStateProjectService">
     <state x="540" y="175" key="#CLI_Interpreters" timestamp="1605440799881">
