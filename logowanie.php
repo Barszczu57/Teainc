@@ -75,7 +75,7 @@
                 </script>
                 <div style="display: flex; justify-content: space-between;">
                     <button class="panel_login-switch" value="Cofnij się!" onclick="history.back()">Cofnij się!</button>
-                    <button class="panel_login-switch" value="Zarejestruj się!">Zarejestruj się!</button>
+                    <a href="rejestracja.php"><button class="panel_login-switch" value="Zarejestruj się!">Zarejestruj się!</button>
                 </div>
             </div>
             <div class="emptybox2">
