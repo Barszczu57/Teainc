@@ -81,7 +81,7 @@
             <div class="emptybox2">
             </div>
         </div>
-        <footer>
+        <footer style="padding: 10px">
             <div>
                 Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
                 from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>

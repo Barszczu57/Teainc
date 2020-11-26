@@ -85,14 +85,14 @@
             <div class="emptybox2">
             </div>
         </div>
-        <footer>
+        <footer style="padding: 10px">
             <div>
                 Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
                 from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
             </div>
         </footer>
     </div>
-<script src="jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript" src="script.js"></script>
 </body>
 </html>

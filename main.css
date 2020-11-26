@@ -50,7 +50,7 @@ footer{
 
     display: flex;
     flex-direction: row;
-    padding: 10px;
+    padding: 20px;
 
     grid-column: 1/ max;
 }
@@ -67,7 +67,6 @@ footer{
     background-color: #ffffff;
 }
 .container div{
-    border: 1px solid #181818;
     padding: 10px;
 }
 .container-content{
@@ -134,6 +133,9 @@ footer{
     color: #ffffff;
     background-color: #181818;
 }
+
+/* --początek logowania i rejestracji-- */
+
 .container_log{
     width: 100vw;
     min-height: calc(100vh + 110px);
@@ -156,7 +158,6 @@ footer{
     box-sizing: border-box;
     background-color: #ffffff;
 }
-
 .panel_login{
     box-shadow: 5px 5px 20px #181818;
     background-color: #ffffff;
@@ -260,4 +261,41 @@ footer{
     border-radius: 5px;
 }
 
+/* --koniec logowania i rejestracji-- */
+.container_panel {
+    width: 100vw;
+    min-height: calc(100vh + 110px);
+    font-weight: bold;
+    font-family: 'Calibri', sans-serif;
+    font-size: 20px;
+    display: grid;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 1fr  110px;
+    background-color: #ffffff;
+}
+.container_panel div{
+    padding: 10px;
+}
+.container_panel-settings {
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr;
+    grid-template-rows: 1fr  1fr  1fr;
+
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.content-switch{
+    grid-column: 1/2;
+    grid-row: 1/max;
+
+    background-color: #91bebb;
+}
+.content-edit{
+    grid-column: 2/max;
+    grid-row: 1/max;
+
+    background-color: #91bebb;
+}
 
