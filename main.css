@@ -114,6 +114,18 @@ footer{
     grid-row: span 1;
 
     background-color: #91bebb;
+
+    color: #ffffff;
+    font-size: 2em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-large-text{
+    padding: 15px;
+    flex-direction: column;
+    text-shadow: 0 1px 5px black;
 }
 .content-small{
     grid-column: 4/5;

@@ -8,7 +8,7 @@
 <body>
     <div class="container">
         <header>
-            <a href="index.php" class="name">Teainc</a>
+            <a href="./" class="name">Teainc</a>
             <nav>
                 <a href="" class="navbutton">
                     <img src="basket.svg" alt="koszyk">
@@ -28,13 +28,19 @@
                 </a>
             </div>
             <div class="content-large">
-                Produkt1
+                <a class="content-large-text" href="./">
+                    Nowe produkty
+                </a>
             </div>
             <div class="content-large">
-                Produkt2
+                <a class="content-large-text" href="./">
+                    Herbata
+                </a>
             </div>
             <div class="content-large">
-                Produkt3
+                <a class="content-large-text" href="./">
+                    Akcesoria
+                </a>
             </div>
             <div class="content-small">
                 <ul style="text-wrap: normal">
