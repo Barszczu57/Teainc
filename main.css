@@ -291,11 +291,34 @@ footer{
     grid-row: 1/max;
 
     background-color: #91bebb;
+    display: flex;
+    flex-direction: column;
 }
-.content-edit{
+.content-switch-text{
+    color: #ffffff;
+    font-size: 1em;
+    padding: 5px;
+    background-color: #181818;
+}
+.content-switch-text-edit{
+    color: #181818;
+    font-size: 1em;
+    padding: 10px;
+}
+.visible{
+    visibility: visible;
+}
+.unvisible{
+    visibility: hidden;
+}
+.content-edit-pracownicy{
     grid-column: 2/max;
     grid-row: 1/max;
-
+    background-color: #91bebb;
+}
+.content-edit-produkty{
+    grid-column: 2/max;
+    grid-row: 1/max;
     background-color: #91bebb;
 }
 

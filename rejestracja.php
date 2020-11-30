@@ -16,7 +16,7 @@
                 <a href="logowanie.php" class="navbutton">
                     <img src="profile.svg" alt="profil">
                 </a>
-                <a href="" class="navbutton">
+                <a href="panel.php" class="navbutton">
                     <img src="settings.svg" alt="ustawienia">
                 </a>
             </nav>

@@ -16,17 +16,27 @@
                 <a href="logowanie.php" class="navbutton">
                     <img src="profile.svg" alt="profil">
                 </a>
-                <a href="" class="navbutton">
+                <a href="panel.php" class="navbutton">
                     <img src="settings.svg" alt="ustawienia">
                 </a>
             </nav>
         </header>
         <div class="container_panel-settings">
             <div class="content-switch">
-                Leftbar
+                <a class="content-switch-text">Pracownicy</a>
+                    <a class="content-switch-text-edit" id="workeradd">Dodaj</a>
+                    <a class="content-switch-text-edit" id="workeredit">Edytuj</a>
+                    <a class="content-switch-text-edit" id="workerdel">Usuń</a>
+                <a class="content-switch-text">Produkty</a>
+                    <a class="content-switch-text-edit" id="productadd">Dodaj</a>
+                    <a class="content-switch-text-edit" id="productedit">Edytuj</a>
+                    <a class="content-switch-text-edit" id="productdel">Usuń</a>
             </div>
-            <div class="content-edit">
-                Settings
+            <div class="content-edit-pracownicy " id="content-edit-pracownicy">
+
+            </div>
+            <div class="content-edit-produkty unvisible" id="content-edit-produkty">
+
             </div>
         </div>
         <footer>

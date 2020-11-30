@@ -8,11 +8,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c702ffd5-57e8-4ec9-a7e0-839150ad201e" name="Default Changelist" comment="Dodana podstrona rejestracji / zmieniona strona główna">
+    <list default="true" id="c702ffd5-57e8-4ec9-a7e0-839150ad201e" name="Default Changelist" comment="początek panelu admina">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logowanie.php" beforeDir="false" afterPath="$PROJECT_DIR$/logowanie.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panel.php" beforeDir="false" afterPath="$PROJECT_DIR$/panel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rejestracja.php" beforeDir="false" afterPath="$PROJECT_DIR$/rejestracja.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +127,9 @@
       <workItem from="1606340741625" duration="605000" />
       <workItem from="1606378053663" duration="7357000" />
       <workItem from="1606395307836" duration="279000" />
-      <workItem from="1606403870542" duration="3080000" />
+      <workItem from="1606403870542" duration="6113000" />
+      <workItem from="1606644953575" duration="168000" />
+      <workItem from="1606725544905" duration="5228000" />
     </task>
     <task id="LOCAL-00001" summary="login/register layout only">
       <created>1605274523040</created>
@@ -308,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606388183731</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="początek panelu admina">
+      <created>1606406992634</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1606406992634</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,7 +379,8 @@
     <MESSAGE value="Przebudowa stylistyki strony / podstrona logowania / rejestracja w aktualizacji" />
     <MESSAGE value="Dodana podstrona rejestracji" />
     <MESSAGE value="Dodana podstrona rejestracji / zmieniona strona główna" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodana podstrona rejestracji / zmieniona strona główna" />
+    <MESSAGE value="początek panelu admina" />
+    <option name="LAST_COMMIT_MESSAGE" value="początek panelu admina" />
   </component>
   <component name="WindowStateProjectService">
     <state x="540" y="175" key="#CLI_Interpreters" timestamp="1605440799881">
@@ -410,10 +423,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="735" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605283333227" />
-    <state x="400" y="83" width="1213" height="699" maximized="true" key="DiffContextDialog" timestamp="1606240413826">
+    <state x="400" y="83" width="1213" height="699" maximized="true" key="DiffContextDialog" timestamp="1606728290125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="400" y="83" width="1213" height="699" maximized="true" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606240413826" />
+    <state x="400" y="83" width="1213" height="699" maximized="true" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606728290125" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1606054826135">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -430,10 +443,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="681" y="175" width="990" height="712" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605776989695" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606388199459">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606406994853">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606388199459" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606406994853" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605980423707">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

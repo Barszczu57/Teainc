@@ -1,22 +1,38 @@
-$('#go_sig').click(function() {
-    $('#go_sig').addClass('change_btn')
-    $('#panel_sig').removeClass('panel_bg')
-    $('#panel_log').addClass('panel_bg')
-    $('#go_log').removeClass('change_btn');
-    $('#form_sign').addClass('change_panel')
-    $('#form_login').removeClass('change_panel')
-    $('#username').removeClass('pl_input_error')
-    $('#password').removeClass('pl_input_error')
-    $('#username2').removeClass('pl_input_error')
-    $('#password2').removeClass('pl_input_error')
+$("#workeradd").
+click(function(){
+    $("#content-edit-produkty").removeClass('visible').addClass('unvisible');
+    $("#content-edit-pracownicy").removeClass('unvisible').addClass('visible').
+    html("Dodawanie pracownika");
+
 });
-$('#go_log').click(function() {
-    $('#go_log').addClass('change_btn')
-    $('#panel_log').removeClass('panel_bg')
-    $('#panel_sig').addClass('panel_bg')
-    $('#go_sig').removeClass('change_btn')
-    $('#form_login').addClass('change_panel')
-    $('#form_sign').removeClass('change_panel')
-    $('#username1').removeClass('pl_input_error')
-    $('#email1').removeClass('pl_input_error')
+$("#workeredit").
+click(function(){
+    $("#content-edit-produkty").removeClass('visible').addClass('unvisible');
+    $("#content-edit-pracownicy").removeClass('unvisible').addClass('visible').
+    html("Edytowanie pracownika");
+});
+$("#workerdel").
+click(function(){
+    $("#content-edit-produkty").removeClass('visible').addClass('unvisible');
+    $("#content-edit-pracownicy").removeClass('unvisible').addClass('visible').
+    html("Usuwanie pracownika");
+});
+$("#productadd").
+click(function(){
+    $("#content-edit-pracownicy").removeClass('visible').addClass('unvisible');
+    $("#content-edit-produkty").removeClass('unvisible').addClass('visible').
+    html("Dodawanie produktu");
+
+});
+$("#productedit").
+click(function(){
+    $("#content-edit-pracownicy").removeClass('visible').addClass('unvisible');
+    $("#content-edit-produkty").removeClass('unvisible').addClass('visible').
+    html("Edytowanie produktu");
+});
+$("#productdel").
+click(function(){
+    $("#content-edit-pracownicy").removeClass('visible').addClass('unvisible');
+    $("#content-edit-produkty").removeClass('unvisible').addClass('visible').
+    html("Usuwanie produktu");
 });
