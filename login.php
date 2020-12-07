@@ -14,7 +14,7 @@ if ( !isset($username_log) || empty($username_log) ) {
 if ( !isset($password_log) || empty($password_log) ) {
     $ok = false;
 }
-$queryLog="SELECT * FROM users WHERE username ='$username_log' AND password='$password_log'";
+$queryLog="SELECT * FROM klienci_konta WHERE login ='$username_log' AND hasło='$password_log'";
 $resultLog = mysqli_query($conn, $queryLog);
 $rowLog = mysqli_fetch_array($resultLog);
 

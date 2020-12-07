@@ -56,14 +56,14 @@ footer{
 }
 .container {
     width: 100vw;
-    min-height: calc(100vh + 110px);
+    min-height: calc(100vh + 65px);
     font-weight: bold;
     font-family: 'Calibri', sans-serif;
     font-size: 20px;
     display: grid;
 
     grid-template-columns: 1fr;
-    grid-template-rows: 10% 1fr  110px;
+    grid-template-rows: 6% 1fr  65px;
     background-color: #ffffff;
 }
 .container div{
@@ -94,10 +94,8 @@ footer{
     background-image: url("news.png");
     background-size: cover;
     background-color: #91bebb;
-
     color: #ffffff;
     font-size: 4em;
-
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -138,14 +136,14 @@ footer{
 
 .container_log{
     width: 100vw;
-    min-height: calc(100vh + 110px);
+    min-height: calc(100vh + 65px);
     font-weight: bold;
     font-family: 'Calibri', sans-serif;
     font-size: 20px;
     display: grid;
 
     grid-template-columns: 1fr;
-    grid-template-rows: 10%  1fr  110px;
+    grid-template-rows: 6% 1fr  65px;
 }
 .container_log div{
     padding: 20px;
@@ -200,14 +198,14 @@ footer{
 
 .container_reg{
     width: 100vw;
-    min-height: calc(100vh + 110px);
+    min-height: calc(100vh + 65px);
     font-weight: bold;
     font-family: 'Calibri', sans-serif;
     font-size: 20px;
     display: grid;
 
     grid-template-columns: 1fr;
-    grid-template-rows: 10%  1fr  110px;
+    grid-template-rows: 6% 1fr  65px;
 }
 .container_reg div{
     padding: 20px;
@@ -264,14 +262,14 @@ footer{
 /* --koniec logowania i rejestracji-- */
 .container_panel {
     width: 100vw;
-    min-height: calc(100vh + 110px);
+    min-height: calc(100vh + 65px);
     font-weight: bold;
     font-family: 'Calibri', sans-serif;
     font-size: 20px;
     display: grid;
 
     grid-template-columns: 1fr;
-    grid-template-rows: 10% 1fr  110px;
+    grid-template-rows: 6% 1fr  65px;
     background-color: #ffffff;
 }
 .container_panel div{
@@ -321,4 +319,11 @@ footer{
     grid-row: 1/max;
     background-color: #91bebb;
 }
-
+.worker_edit{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.worker_edit-inp{
+    font-size: 1em;
+}

@@ -6,7 +6,6 @@ $username_reg = isset($_POST['username_reg']) ? $_POST['username_reg'] : '';
 $email_reg = isset($_POST['email_reg']) ? $_POST['email_reg'] : '';
 $password_reg = isset($_POST['password_reg']) ? $_POST['password_reg'] : '';
 
-$auth=0;
 $ok = true;
 
 if ( !isset($username_reg) || empty($username_reg) ) {
@@ -19,7 +18,7 @@ if ( !isset($password_reg) || empty($password_reg) ) {
     $ok = false;
 }
 
-$queryReg="SELECT * FROM users WHERE username ='$username_reg' OR email='$email_reg'";
+$queryReg="SELECT * FROM klienci_konta WHERE login ='$username_reg' OR email='$email_reg'";
 $resultReg = mysqli_query($conn, $queryReg);
 $rowReg = mysqli_fetch_array($resultReg);
 
@@ -30,7 +29,7 @@ else{
     $ok = true;
 }
 if($ok===true){
-    $queryADD="INSERT INTO users (username,email,password,auth) VALUES ('$username_reg','$email_reg','$password_reg','$auth')";
+    $queryADD="INSERT INTO klienci_konta (login,email,hasło,) VALUES ('$username_reg','$email_reg','$password_reg')";
     $resultADD = mysqli_query($conn, $queryADD);
 }
 
