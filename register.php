@@ -1,6 +1,6 @@
 <?php
 
-$conn = mysqli_connect('localhost','root','','teainc');
+$conn = mysqli_connect('mysql.ct8.pl','m17098_Admin','Maslo12','m17098_Teainc');
 
 $username_reg = isset($_POST['username_reg']) ? $_POST['username_reg'] : '';
 $email_reg = isset($_POST['email_reg']) ? $_POST['email_reg'] : '';
@@ -29,7 +29,7 @@ else{
     $ok = true;
 }
 if($ok===true){
-    $queryADD="INSERT INTO klienci_konta (login,email,hasło,) VALUES ('$username_reg','$email_reg','$password_reg')";
+    $queryADD="INSERT INTO klienci_konta (login,email,haslo,) VALUES ('$username_reg','$email_reg','$password_reg')";
     $resultADD = mysqli_query($conn, $queryADD);
 }
 

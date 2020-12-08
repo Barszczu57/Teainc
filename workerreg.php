@@ -1,6 +1,6 @@
 <?php
 
-$conn = mysqli_connect('localhost','root','','teainc');
+$conn = mysqli_connect('mysql.ct8.pl','m17098_Admin','Maslo12','m17098_Teainc');
 
 $workername_reg = isset($_POST['worker_name']) ? $_POST['worker_name'] : '';
 $workermail_reg = isset($_POST['worker_mail']) ? $_POST['worker_mail'] : '';
@@ -30,7 +30,7 @@ else{
     $ok = true;
 }
 if($ok===true){
-    $queryADD="INSERT INTO pracownicy_konta (login,hasło,email) VALUES ('$workername_reg','$workerpasswd_reg','$workermail_reg')";
+    $queryADD="INSERT INTO pracownicy_konta (login,haslo,email) VALUES ('$workername_reg','$workerpasswd_reg','$workermail_reg')";
     $resultADD = mysqli_query($conn, $queryADD);
 }
 

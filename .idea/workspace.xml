@@ -10,15 +10,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c702ffd5-57e8-4ec9-a7e0-839150ad201e" name="Default Changelist" comment="x">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basket.svg" beforeDir="false" afterPath="$PROJECT_DIR$/basket.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account.php" beforeDir="false" afterPath="$PROJECT_DIR$/account.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logowanie.php" beforeDir="false" afterPath="$PROJECT_DIR$/logowanie.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/panel.php" beforeDir="false" afterPath="$PROJECT_DIR$/panel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile.svg" beforeDir="false" afterPath="$PROJECT_DIR$/profile.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.svg" beforeDir="false" afterPath="$PROJECT_DIR$/settings.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workerreg.php" beforeDir="false" afterPath="$PROJECT_DIR$/workerreg.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,19 +68,6 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\ProjektStronka" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -149,7 +131,8 @@
       <workItem from="1606725544905" duration="5851000" />
       <workItem from="1606997179766" duration="346000" />
       <workItem from="1607206070577" duration="149000" />
-      <workItem from="1607338109255" duration="12356000" />
+      <workItem from="1607338109255" duration="14573000" />
+      <workItem from="1607412236397" duration="4863000" />
     </task>
     <task id="LOCAL-00001" summary="login/register layout only">
       <created>1605274523040</created>
@@ -347,7 +330,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606738303868</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="x">
+      <created>1607362732055</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1607362732055</updated>
+    </task>
+    <task id="LOCAL-00030" summary="x">
+      <created>1607362746103</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1607362746103</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,10 +440,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="348" y="360" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1606052282357" />
-    <state x="551" y="177" width="1094" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606134680274">
+    <state x="551" y="177" width="1094" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607416221730">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="177" width="1094" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606134680274" />
+    <state x="551" y="177" width="1094" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607416221730" />
     <state x="735" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605283333227">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -475,10 +472,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="681" y="175" width="990" height="712" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605776989695" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606738307477">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607362767058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606738307477" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607362767058" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605980423707">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -499,9 +496,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607357682918" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1607360127719">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1607416178188">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607360127719" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607416178188" />
   </component>
 </project>

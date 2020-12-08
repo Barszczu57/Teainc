@@ -1,1 +1,1 @@
-<h1>Logowanie dziala</h1>
+<h1>Działa</h1>
